@@ -1,6 +1,6 @@
 {
   "name": "@zcorky/action-setup-gzssh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "github action for setuping gzssh",
   "keywords": [
     "action",
