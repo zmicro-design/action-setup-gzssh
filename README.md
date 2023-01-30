@@ -11,7 +11,6 @@
 ### Example
 
 ```yml
-# Setup Web Terminal CLI only
 name: CI
 
 on: [push]
@@ -21,7 +20,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Web Terminal
+      - name: Setup GZSSH
         uses: zmicro-design/action-setup-gzssh@v1
 ```
 
